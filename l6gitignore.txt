@@ -1,0 +1,73 @@
+=? Git Ignore
+
+mkdir lesson4
+cd lesson4
+
+git init
+git status
+
+
+
+For linux = touch .gitignore
+For window =c
+name.filename
+ls -la
+
+=> window
+
+# Compiled #
+*.com
+*.class
+*.dll
+*.eet
+*.xlse
+
+# Package File #
+*.zip
+*.rar
+*.tar
+*.7zip
+*.mg
+*.iso
+
+# Image Source #
+*.jpeg
+*.png
+*.ico
+
+esc > :wq
+
+touch country.txt
+touch phone.txt
+touch computer.txt
+touch user.jpg
+touch favicon.ico
+touch application.exe
+touch database.xlsx
+touch plugin.zip
+
+
+git status
+
+computer.txt
+country.txt
+phone.txt
+user.jpg
+
+ls -la
+
+// Remove Ignore File+
+rm .gitignore
+
+git status
+
+    application.exe
+    computer.txt
+    country.txt
+    database.xlsx
+    favicon.ico
+    phone.txt
+    plugin.zip
+    user.jpg
+
+    12GI

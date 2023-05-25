@@ -1,0 +1,44 @@
+=>Git Clone 
+
+mkdir lesson2
+cd lesson2
+git clone git@github.com:datalandtechonology/githublesson1.git
+cd githublesson1
+
+
+windows = dir 
+linux = ls -la 
+
+
+windows = explorer 
+linux = xdg-open 
+
+
+===Change something in index.html from local public 
+git status 
+git add .
+git status 
+git commit "M thanks in to index.html "
+git push -u origin main 
+
+===Change something in index.html from github.com 
+commit from "M githubsite app index.html 
+
+==In Terminal 
+git pull origin 
+
+===Change something in index.html from local public 
+git status 
+git add .
+git status 
+git commit "M from local pc address index.html "
+git push -u origin main 
+
+===Change something in index.html from local public 
+git 
+git add index.html
+git status 
+git commit "M thanks in to index.html "
+git push -u origin main 
+
+

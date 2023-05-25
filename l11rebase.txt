@@ -1,0 +1,199 @@
+read file
+for linux => cat file3.txt
+for window => type file3.txt
+
+
+=> Rebase
+
+mkdir lesson11
+cd lesson11
+
+git init
+
+git init lesson11(git init + mkdir lesson11)
+
+nul > file1.txt(for window )
+nul > file2.txt
+
+vim file1.txt
+Edit : write down
+1.this is the first line 
+2.this is the second line 
+
+esc > :wq
+
+vim fiel2.txt
+Edit : write down
+1.this is the first line 
+2.this is the second line 
+
+esc > :wq
+
+
+git status
+git status -s
+
+git add .
+git commit -m "A file 1 2"
+git status
+
+dir
+
+New branch open 
+git checkout -b new-feature (git checkout -b BRANCHNAME )
+
+git branch
+git checkout master
+
+nul > file3.txt
+nul > file4.txt
+
+edit file3.txt
+Edit : write down
+1.this is the first post 
+2.this is the second post 
+esc > :wq
+
+
+vim fiel4.txt
+Edit : write down
+1.this is the first expression 
+2.this is the second expression
+esc > :wq
+
+git status
+git status -s
+
+git add .
+git commit -m "A file 3 4"
+git status
+dir
+
+git checkout master
+git branch
+dir
+
+git merge new-feature
+git branch
+dir
+
+git checkout new-feature
+git branch
+dir
+
+
+vim file1.txt
+edit : write down
+3.this is the third line
+4.this is the fourth line
+
+esc >: wq
+
+git status
+git status -s
+
+git add .
+git commit -m "M f1"
+dir
+
+git branch
+type file1.txt
+
+git checkout master
+git branch
+dir
+
+type file1.txt
+
+git rebase new-feature
+
+type file1.txt
+git branch
+
+edit file3.txt
+Edit : write down
+3.this is the third post 
+4.this is the fourth post 
+esc > :wq
+
+git status
+git status -s
+
+git add *
+git commit -m "M f3"
+git status
+dir
+
+type file3.txt
+
+
+git checkout new-feature
+dir
+type file3.txt
+
+
+edit file2.txt
+Edit : write down
+3.this is the third comment 
+4.this is the fourth comment
+esc > :wq
+
+type file2.txt
+type file3.txt
+
+git status
+git add *
+git commit -m "M f2"
+git status
+dir
+
+git checkout master
+dir
+
+type file2.txt
+type file3.txt
+
+
+git checkout new-feature
+dir
+type file3.txt
+
+edit file2.txt
+Edit : write down
+5.this is the fifth comment 
+6.this is the sixth comment
+esc > :wq
+
+nul > file5.txt
+Edit : write down
+1.this is the first artical 
+esc > :wq
+
+edit file3.txt
+Edit : write down
+7.this is the seventh post 
+8.this is the eight post
+esc > :wq
+
+dir
+
+type file2.txt
+type file3.txt
+type file5.txt
+
+git status
+git add *
+git commit -m "M f2 f3 A f5"
+git status
+dir
+
+git checkout master
+
+dir 
+type file2.txt 
+type file3.txt 
+
+
+
+
+20RB

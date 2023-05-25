@@ -1,0 +1,55 @@
+mkdir lesson1 
+cd lesson1 
+
+
+create index.html 
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Lesson 1</title>
+    <style>
+        h1 {
+            color: blue;
+        }
+        
+        p {
+            color: steelblue;
+            font-size: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Gitlab Lesson</h1>
+    <p>Hello, Are you ready to use Gitlab.</p>
+</body>
+
+</html>
+
+
+
+git init 
+git status 
+git add index.html 
+git commit -m "A index.html"
+
+
+=>Acc => Github > New Repository > githublesson1 (public)
+
+=>In Termial 
+- git remote add origin git@github.com:PhyoThantKo123/githublesson1.git
+- git push -u origin main
+
+git add origin git@github.com:datalandtechonology/githublesson1.git 
+git add index.html 
+
+
+
+
+
+
+
+
+
+24PL 
